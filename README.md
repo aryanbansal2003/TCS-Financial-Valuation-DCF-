@@ -1,275 +1,216 @@
-# 📊 Tata Consultancy Services (TCS) - Discounted Cash Flow (DCF) Valuation Model
+# 📊 TCS Discounted Cash Flow (DCF) Valuation Model
 
-> An end-to-end **Financial Modeling & Equity Valuation** project developed in Microsoft Excel to estimate the intrinsic value of **Tata Consultancy Services (TCS)** using the **Discounted Cash Flow (DCF)** methodology.
+A comprehensive **Financial Modeling & Valuation** project built in **Microsoft Excel** to estimate the intrinsic value of **Tata Consultancy Services (TCS)** using the **Discounted Cash Flow (DCF)** methodology.
 
----
-
-## 📖 Project Overview
-
-This project demonstrates the complete valuation of **Tata Consultancy Services (TCS)** by integrating historical financial statement analysis, financial forecasting, Free Cash Flow to Firm (FCFF) projections, Weighted Average Cost of Capital (WACC), Terminal Value estimation, and intrinsic share price calculation.
-
-The model follows industry-standard financial modeling practices used by Investment Banks, Equity Research Firms, Corporate Finance teams, and Big 4 Consulting firms.
+This project demonstrates financial statement analysis, forecasting, valuation techniques, and investment decision-making skills commonly used in Investment Banking, Equity Research, Corporate Finance, and Financial Planning & Analysis (FP&A).
 
 ---
 
-# 🎯 Objective
+## 📌 Project Objective
 
-The objective of this project is to estimate the intrinsic value of TCS by forecasting future cash flows and discounting them to their present value using the Discounted Cash Flow (DCF) approach.
+The objective of this project is to determine whether TCS is **undervalued, fairly valued, or overvalued** by forecasting future Free Cash Flows and discounting them to present value using the company's Weighted Average Cost of Capital (WACC).
 
 ---
 
-# 📌 Project Highlights
+## 📂 Workbook Structure
 
-✅ Built a fully integrated **DCF Valuation Model** from scratch in Microsoft Excel.
+The Excel model consists of the following worksheets:
 
-✅ Analyzed **4 years** of historical financial statements (FY2022–FY2025).
+| Sheet | Description |
+|--------|-------------|
+| **TCS P&L** | Historical Income Statement analysis |
+| **TCS Balance Sheet** | Historical Balance Sheet analysis |
+| **TCS CASH FLOW** | Historical Cash Flow Statement |
+| **Fixed Assets** | Fixed Asset schedule and depreciation forecasting |
+| **Net Working Capital** | Working Capital forecasting and assumptions |
+| **Free Cash Flow** | Calculation of Unlevered Free Cash Flow (FCFF) |
+| **WACC** | Cost of Equity, Cost of Debt, Capital Structure & WACC calculation |
+| **DCF** | Enterprise Value, Equity Value and Share Price calculation |
 
-✅ Forecasted financial performance for **4 future years (FY2026–FY2029).**
+---
 
-✅ Developed linked schedules for:
+## 📈 Financial Modeling Process
 
-- Revenue Forecasting
-- EBIT Forecasting
-- Depreciation
+### 1. Historical Financial Analysis
+
+- Income Statement Analysis
+- Balance Sheet Analysis
+- Cash Flow Statement Analysis
+- Revenue Trend Analysis
+- Margin Analysis
+
+---
+
+### 2. Forecasting
+
+The model forecasts key financial drivers including:
+
+- Revenue
+- Operating Expenses
+- EBIT
+- Taxes
+- Depreciation & Amortization
 - Capital Expenditure (CapEx)
 - Net Working Capital
-- Free Cash Flow to Firm (FCFF)
-
-✅ Calculated **Weighted Average Cost of Capital (WACC)** using the CAPM approach.
-
-✅ Estimated Terminal Value using the **Gordon Growth Model**.
-
-✅ Calculated Enterprise Value, Equity Value, and Intrinsic Share Price.
+- Free Cash Flow
 
 ---
 
-# 📊 Key Valuation Results
+### 3. WACC Calculation
 
-| Metric | Value |
-|---------|--------:|
-| Historical Financial Data | FY2022 – FY2025 |
-| Forecast Period | FY2026 – FY2029 |
-| WACC | **11.04%** |
-| Terminal Growth Rate | **6.00%** |
-| Enterprise Value | **₹1,627,389 Million** |
-| Equity Value | **₹1,625,324 Million** |
-| Estimated Intrinsic Share Price | **₹449.22/share** |
+The valuation model calculates:
 
----
-
-# 📂 Workbook Structure
-
-| Worksheet | Description |
-|------------|-------------|
-| Income Statement | Historical Profit & Loss Analysis |
-| Balance Sheet | Historical Balance Sheet |
-| Cash Flow Statement | Historical Cash Flow Analysis |
-| Fixed Assets Schedule | Depreciation & CapEx Forecast |
-| Net Working Capital | Working Capital Forecast |
-| FCFF | Free Cash Flow to Firm Calculation |
-| WACC | Cost of Equity, Cost of Debt & WACC |
-| DCF Valuation | Enterprise Value & Share Price Estimation |
+- Risk-Free Rate
+- Market Risk Premium
+- Levered Beta
+- Cost of Equity (CAPM)
+- Cost of Debt
+- Capital Structure
+- Tax Shield
+- Weighted Average Cost of Capital (WACC)
 
 ---
 
-# ⚙️ Financial Modeling Methodology
+### 4. Discounted Cash Flow Valuation
 
-### Step 1
+The DCF model includes:
 
-Historical Financial Statement Analysis
-
-- Income Statement
-- Balance Sheet
-- Cash Flow Statement
-
-↓
-
-### Step 2
-
-Financial Forecasting
-
-- Revenue Growth
-- Operating Expenses
-- EBIT Margin
-- Taxes
-
-↓
-
-### Step 3
-
-Operating Schedule Preparation
-
-- Depreciation
-- Capital Expenditure
-- Net Working Capital
-
-↓
-
-### Step 4
-
-Free Cash Flow to Firm (FCFF)
-
-```
-FCFF =
-EBIT × (1 − Tax Rate)
-+ Depreciation
-− Capital Expenditure
-− Change in Net Working Capital
-```
-
-↓
-
-### Step 5
-
-Weighted Average Cost of Capital (WACC)
-
-```
-Cost of Equity
-→ CAPM
-
-Cost of Debt
-
-↓
-
-WACC
-```
-
-↓
-
-### Step 6
-
-Terminal Value
-
-```
-TV =
-FCFF × (1 + g)
-----------------
-(WACC − g)
-```
-
-↓
-
-### Step 7
-
-Enterprise Value
-
-↓
-
-### Step 8
-
-Equity Value
-
-↓
-
-### Step 9
-
-Intrinsic Share Price
-
----
-
-# 📈 Financial Concepts Applied
-
-- Discounted Cash Flow (DCF)
-- Free Cash Flow to Firm (FCFF)
-- Corporate Valuation
+- Forecast Period
+- Discount Factor
+- Present Value of FCFF
+- Terminal Value
 - Enterprise Value
 - Equity Value
-- Terminal Value
-- WACC
-- CAPM
-- Revenue Forecasting
-- EBIT Forecasting
-- Working Capital Analysis
-- Capital Expenditure
-- Depreciation
-- Financial Statement Analysis
+- Intrinsic Share Price
 
 ---
 
-# 🛠 Tools & Technologies
+## 🧮 Valuation Methodology
+
+### Enterprise Value
+
+Enterprise Value = Present Value of Forecasted FCFF + Present Value of Terminal Value
+
+### Equity Value
+
+Equity Value = Enterprise Value - Net Debt
+
+### Intrinsic Share Price
+
+Intrinsic Share Price = Equity Value ÷ Diluted Shares Outstanding
+
+---
+
+## 🛠 Skills Demonstrated
+
+- Financial Modeling
+- Discounted Cash Flow (DCF)
+- Company Valuation
+- Financial Statement Analysis
+- Excel Modeling
+- Forecasting
+- Corporate Finance
+- Investment Analysis
+- Equity Research
+- WACC Calculation
+- FCFF Modeling
+- Capital Budgeting
+- Scenario Analysis
+
+---
+
+## 📊 Key Concepts Covered
+
+- Revenue Forecasting
+- Operating Margin
+- Tax Rate
+- Depreciation
+- Capital Expenditure
+- Working Capital
+- Free Cash Flow
+- Terminal Growth Method
+- Discount Factors
+- Present Value
+- Enterprise Value
+- Equity Value
+- Intrinsic Valuation
+
+---
+
+## 🛠 Tools Used
 
 - Microsoft Excel
 - Financial Modeling
+- DCF Valuation
 - Corporate Finance
-- Equity Valuation
-- DCF Analysis
-- CAPM
-- Business Valuation
+- Accounting
 
 ---
 
-# 💼 Skills Demonstrated
+## 📚 Learning Outcomes
 
-- Financial Modeling
-- Equity Research
-- Company Valuation
-- Forecasting
-- Financial Analysis
-- Corporate Finance
-- Investment Analysis
-- Business Valuation
-- Excel Modeling
-- Financial Statement Analysis
+Through this project, I gained practical experience in:
+
+- Building a complete DCF valuation model from scratch
+- Linking all three financial statements
+- Forecasting financial performance
+- Calculating WACC using CAPM
+- Estimating Enterprise and Equity Value
+- Performing valuation using Free Cash Flow to Firm (FCFF)
+- Understanding the relationship between assumptions and company valuation
 
 ---
 
-# 📁 Repository Structure
+## 📸 Model Preview
+
+> Add screenshots of the following sheets here:
+
+- DCF Summary
+- WACC Calculation
+- Free Cash Flow
+- Financial Statements
+- Valuation Dashboard (if available)
+
+
+
+## 🚀 Repository Structure
 
 ```
-TCS-DCF-Valuation/
-
-│── TCS_DCF_Model.xlsx
-│── README.md
-
-```
-
----
-
-# 🚀 Future Enhancements
-
-- Sensitivity Analysis (WACC vs Terminal Growth)
-- Scenario Analysis (Bull, Base & Bear Case)
-- Comparable Company Analysis (CCA)
-- Precedent Transaction Analysis
+TCS-DCF-Valuation-Model/
+│
+├── TCS DCF Model.xlsx
+├── README.md
 
 
----
+## 🎯 Ideal For
 
-# 📚 Learning Outcomes
+This project is suitable for showcasing skills relevant to:
 
-Through this project, I strengthened my understanding of:
-
-- Financial Statement Analysis
-- Corporate Finance
-- Discounted Cash Flow Valuation
-- Financial Forecasting
-- WACC & CAPM
-- Enterprise & Equity Valuation
-- Intrinsic Share Price Estimation
-- Excel-based Financial Modeling
-- Investment Decision Making
-
----
-
-# 👨‍💼 About Me
-
-### Aryan Bansal
-
-PGDM (Finance & Business Analytics)  
-Jaipuria School of Business, Ghaziabad
-
-**Areas of Interest**
-
-- Financial Modeling
-- Equity Research
-- Corporate Finance
 - Investment Banking
-- Valuation
-- Financial Analysis
-- Business Analytics
+- Equity Research
+- Corporate Finance
+- Financial Analyst
+- FP&A
+- Valuation Analyst
+- Business Analyst (Finance)
+- Consulting
 
 ---
 
-## ⭐ If you found this project helpful, consider giving it a Star!
+## ⭐ If you found this project useful
 
-If you have any suggestions or feedback, feel free to open an issue or connect with me on LinkedIn.
+Give this repository a ⭐ and feel free to explore or suggest improvements.
+
+---
+
+## 👨‍💻 Author
+
+**Aryan Bansal**
+
+**PGDM (Finance & Business Analytics)**
+
+**Skills:** Financial Modeling • DCF Valuation • Equity Research • Financial Analysis • Excel • Power BI • SQL • Python
+
+**GitHub:** https://github.com/aryanbansal2003
+
+**LinkedIn:** *(Add your LinkedIn profile link here)*
