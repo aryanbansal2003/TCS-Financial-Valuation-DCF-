@@ -171,7 +171,15 @@ Through this project, I gained practical experience in:
 - Financial Statements
 - Valuation Dashboard (if available)
 
+Example:
 
+```
+/images/DCF.png
+/images/WACC.png
+/images/FCFF.png
+```
+
+---
 
 ## 🚀 Repository Structure
 
@@ -180,7 +188,10 @@ TCS-DCF-Valuation-Model/
 │
 ├── TCS DCF Model.xlsx
 ├── README.md
+└── LICENSE
+```
 
+---
 
 ## 🎯 Ideal For
 
